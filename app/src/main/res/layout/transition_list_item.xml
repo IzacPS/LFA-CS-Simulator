@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<!--    <data>-->
+<!--        <variable-->
+<!--            name="transition"-->
+<!--            type="app.fs.lfa.tm.TuringMachine.TransitionData&lt;String,String&gt;" />-->
+<!--    </data>-->
+
+ <androidx.cardview.widget.CardView
+     android:id="@+id/transition_item_root"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:padding="8dp"
+     app:cardElevation="4dp"
+     app:cardCornerRadius="8dp">
+
+     <RelativeLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content">
+
+         <TextView
+             android:id="@+id/text_view"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginStart="8dp"
+             android:layout_marginTop="16dp"
+             android:text="Text"
+             android:textSize="18sp" />
+
+         <androidx.appcompat.widget.AppCompatImageButton
+             android:id="@+id/remove_transition_button"
+             android:layout_width="44dp"
+             android:layout_height="44dp"
+             android:layout_alignParentEnd="true"
+             android:layout_marginStart="8dp"
+             android:layout_marginTop="8dp"
+             android:layout_marginEnd="8dp"
+             android:layout_marginBottom="8dp"
+             android:background="@drawable/round_selectable_image_button"
+             android:elevation="2dp"
+             android:src="@drawable/ic_baseline_cancel_24" />
+
+     </RelativeLayout>
+ </androidx.cardview.widget.CardView>
+
+</layout>

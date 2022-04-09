@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:showDividers="middle"
+    android:divider="@drawable/layout_divider"
+    android:background="#00000000"
+    android:padding="8dp"
+    android:clipToPadding="false"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:focusable="true"
+        android:clickable="true"
+        android:padding="8dp"
+        app:cardElevation="4dp"
+        app:cardCornerRadius="16dp">
+
+        <TextView
+            android:id="@+id/exe1_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="{ w : w começa em 1 e termina em 0}"
+            android:gravity="center"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="?attr/selectableItemBackground"
+            android:textSize="18sp" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:focusable="true"
+        android:clickable="true"
+        android:padding="8dp"
+        app:cardElevation="4dp"
+        app:cardCornerRadius="16dp">
+
+        <TextView
+            android:id="@+id/exe2_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="{ w : w possui número par de zeros}"
+            android:gravity="center"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="?attr/selectableItemBackground"
+            android:textSize="18sp" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:focusable="true"
+        android:clickable="true"
+        android:padding="8dp"
+        app:cardElevation="4dp"
+        app:cardCornerRadius="16dp">
+
+        <TextView
+            android:id="@+id/exe3_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="{ w : w possui três zeros consecutivos }"
+            android:gravity="center"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="?attr/selectableItemBackground"
+            android:textSize="18sp" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:focusable="true"
+        android:clickable="true"
+        android:padding="8dp"
+        app:cardElevation="4dp"
+        app:cardCornerRadius="16dp">
+
+        <TextView
+            android:id="@+id/exe4_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="{ w : w tem número par de b's }"
+            android:gravity="center"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="?attr/selectableItemBackground"
+            android:textSize="18sp" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:focusable="true"
+        android:clickable="true"
+        android:padding="8dp"
+        app:cardElevation="4dp"
+        app:cardCornerRadius="16dp">
+
+        <TextView
+            android:id="@+id/exe5_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:clickable="true"
+            android:focusable="true"
+            android:text="{ w: w não contém a subcadeia bb }"
+            android:background="?attr/selectableItemBackground"
+            android:textSize="18sp" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:focusable="true"
+        android:clickable="true"
+        android:padding="8dp"
+        app:cardElevation="4dp"
+        app:cardCornerRadius="16dp">
+
+        <TextView
+            android:id="@+id/exe6_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:clickable="true"
+            android:focusable="true"
+            android:text="{ w: w começa com aa ou bb }"
+            android:background="?attr/selectableItemBackground"
+            android:textSize="18sp" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:focusable="true"
+        android:clickable="true"
+        android:padding="8dp"
+        app:cardElevation="4dp"
+        app:cardCornerRadius="16dp">
+
+        <TextView
+            android:id="@+id/exe7_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:clickable="true"
+            android:focusable="true"
+            android:text="{ w: w representa um número binário par }"
+            android:background="?attr/selectableItemBackground"
+            android:textSize="18sp" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:focusable="true"
+        android:clickable="true"
+        android:padding="8dp"
+        app:cardElevation="4dp"
+        app:cardCornerRadius="16dp">
+
+        <TextView
+            android:id="@+id/exe8_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:clickable="true"
+            android:focusable="true"
+            android:text="{ w: w representa um número binario impar }"
+            android:background="?attr/selectableItemBackground"
+            android:textSize="18sp" />
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

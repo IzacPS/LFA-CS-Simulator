@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:showDividers="middle"
+    android:divider="@drawable/layout_divider"
+    android:background="#00000000"
+    android:padding="8dp"
+    android:clipToPadding="false"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:focusable="true"
+        android:clickable="true"
+        android:padding="8dp"
+        app:cardElevation="4dp"
+        app:cardCornerRadius="16dp">
+
+        <TextView
+            android:id="@+id/exe1_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="{ w : w aceita cadeias terminadas em 101 }"
+            android:gravity="center"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="?attr/selectableItemBackground"
+            android:textSize="18sp" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:focusable="true"
+        android:clickable="true"
+        android:padding="8dp"
+        app:cardElevation="4dp"
+        app:cardCornerRadius="16dp">
+
+        <TextView
+            android:id="@+id/exe2_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="{ w : w aceita cadeias que contêm 101}"
+            android:gravity="center"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="?attr/selectableItemBackground"
+            android:textSize="18sp" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:focusable="true"
+        android:clickable="true"
+        android:padding="8dp"
+        app:cardElevation="4dp"
+        app:cardCornerRadius="16dp">
+
+        <TextView
+            android:id="@+id/exe3_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Decide A = { w#w | w ∈ {0,1}∗ }"
+            android:gravity="center"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="?attr/selectableItemBackground"
+            android:textSize="18sp" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:focusable="true"
+        android:clickable="true"
+        android:padding="8dp"
+        app:cardElevation="4dp"
+        app:cardCornerRadius="16dp">
+
+        <TextView
+            android:id="@+id/exe4_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Decide B = { 0^2^n | n ≥ 0 }"
+            android:gravity="center"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="?attr/selectableItemBackground"
+            android:textSize="18sp" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/swipeable_list_item_root"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:focusable="true"
+        android:clickable="true"
+        android:padding="8dp"
+        app:cardElevation="4dp"
+        app:cardCornerRadius="16dp">
+
+        <TextView
+            android:id="@+id/exe5_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:clickable="true"
+            android:focusable="true"
+            android:text="Decide C ={ 0^n1^n | n ≥ 0 }"
+            android:background="?attr/selectableItemBackground"
+            android:textSize="18sp" />
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

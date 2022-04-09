@@ -1,0 +1,44 @@
+{
+  "startState":{
+    "stateLabel":"q0",
+    "transitions":{
+      "0":"q1",
+      "1":"q0"
+    }
+  },
+  "currentState":{
+    "stateLabel":"q0",
+    "transitions":{
+      "0":"q1",
+      "1":"q0"
+    }
+  },
+  "states":{
+    "q1":{
+      "stateLabel":"q1",
+      "transitions":{
+        "0":"q0",
+        "1":"q1"
+      }
+    },
+    "q0":{
+      "stateLabel":"q0",
+      "transitions":{
+        "0":"q1",
+        "1":"q0"
+      }
+    }
+  },
+  "alphabet":[
+    "0",
+    "1"
+  ],
+  "acceptStates":[
+    "q1"
+  ],
+  "inputIndex":0,
+  "inputString":[
+
+  ],
+  "setupFlag":3
+}

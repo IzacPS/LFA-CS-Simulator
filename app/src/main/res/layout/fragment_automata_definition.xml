@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <app.fs.simulator.custom.SelectableHeaderTextView
+                android:id="@+id/item_title_set"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:focusable="true"
+                android:background="?selectableItemBackground"
+                android:gravity="center"
+                android:padding="16dp"
+                android:text="Conjunto de Estados" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/sub_item_title_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:orientation="vertical">
+
+                <app.fs.simulator.custom.CustomDefocusableTextInputEditText
+                    android:id="@+id/input_states_input_edit_text"
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:hint="ex.: q0,q1...,qn"
+                    android:layout_height="wrap_content"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <app.fs.simulator.custom.SelectableHeaderTextView
+                android:id="@+id/item_title_alphabet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:focusable="true"
+                android:background="?selectableItemBackground"
+                android:gravity="center"
+                android:padding="16dp"
+                android:text="Alfabeto" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/sub_item_container_alphabet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:orientation="vertical">
+
+                <app.fs.simulator.custom.CustomDefocusableTextInputEditText
+                    android:id="@+id/input_alphabet_input_edit_text"
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:hint="ex.: a,b,..."
+                    android:layout_height="wrap_content"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:showDividers="middle"
+                android:divider="@drawable/transition_layout_divider"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:text="Estado inicial:" />
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/start_state_menu"
+                        style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox.ExposedDropdownMenu"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <AutoCompleteTextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:inputType="none"/>
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:text="Estado de aceitação:" />
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/accept_state_input_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <app.fs.simulator.custom.CustomDefocusableTextInputEditText
+                            android:layout_width="wrap_content"
+                            android:gravity="center"
+                            android:layout_height="wrap_content"/>
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <app.fs.simulator.custom.SelectableHeaderTextView
+                android:id="@+id/item_title_transition"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:focusable="true"
+                android:background="?selectableItemBackground"
+                android:gravity="center"
+                android:padding="16dp"
+                android:text="Nova Transição" />
+
+            <LinearLayout
+                android:id="@+id/sub_item_container_transition_add"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:text="A partir do estado:" />
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/from_state_menu"
+                        style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox.ExposedDropdownMenu"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <AutoCompleteTextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:inputType="none"/>
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:text="Lê o símbolo:" />
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/symbol_read_menu"
+                        style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox.ExposedDropdownMenu"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <AutoCompleteTextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:inputType="none"/>
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:text="Vai para o estado:" />
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/to_state_menu"
+                        style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox.ExposedDropdownMenu"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <AutoCompleteTextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:inputType="none"/>
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/add_transition_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Adicionar"
+                    android:layout_margin="16dp"
+                    android:layout_gravity="center"/>
+
+            </LinearLayout>
+
+            <app.fs.simulator.custom.SelectableHeaderTextView
+                android:id="@+id/item_title_transitions"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:focusable="true"
+                android:background="?selectableItemBackground"
+                android:gravity="center"
+                android:padding="16dp"
+                android:text="Transições" />
+
+
+            <LinearLayout
+                android:id="@+id/sub_item_transitions_container"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:showDividers="middle"
+                android:divider="@drawable/layout_divider"
+                android:padding="8dp"
+                android:clipToPadding="false"
+                android:orientation="vertical"/>
+
+
+            <Button
+                android:id="@+id/create_automaton_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="8dp"
+                android:text="Criar"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

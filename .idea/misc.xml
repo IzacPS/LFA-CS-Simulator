@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Documents/AndroidStudioProjects/Simulator/app/src/main/res/drawable/automata_divider.xml" value="0.316" />
+        <entry key="..\:/Documents/AndroidStudioProjects/Simulator/app/src/main/res/drawable/fab_options_divider.xml" value="0.2635" />
+        <entry key="..\:/Documents/AndroidStudioProjects/Simulator/app/src/main/res/drawable/ic_baseline_play_circle_filled_24.xml" value="0.2635" />
+        <entry key="..\:/Documents/AndroidStudioProjects/Simulator/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2645" />
+        <entry key="..\:/Documents/AndroidStudioProjects/Simulator/app/src/main/res/drawable/layout_divider.xml" value="0.209" />
+        <entry key="..\:/Documents/AndroidStudioProjects/Simulator/app/src/main/res/drawable/medi_buttons_select_effect.xml" value="0.2635" />
+        <entry key="..\:/Documents/AndroidStudioProjects/Simulator/app/src/main/res/drawable/media_buttons_select_effect.xml" value="0.2635" />
+        <entry key="..\:/Documents/AndroidStudioProjects/Simulator/app/src/main/res/drawable/player_layout_divider.xml" value="0.316" />
+        <entry key="..\:/Documents/AndroidStudioProjects/Simulator/app/src/main/res/drawable/round_selectable_image_button.xml" value="0.209" />
+        <entry key="..\:/Documents/AndroidStudioProjects/Simulator/app/src/main/res/drawable/side_nav_bar.xml" value="0.2185" />
+        <entry key="..\:/Documents/AndroidStudioProjects/Simulator/app/src/main/res/drawable/tape_square_border.xml" value="0.24" />
+        <entry key="..\:/Documents/AndroidStudioProjects/Simulator/app/src/main/res/drawable/tape_square_head_rw.xml" value="0.24" />
+        <entry key="..\:/Documents/AndroidStudioProjects/Simulator/app/src/main/res/drawable/transition_layout_divider.xml" value="0.2765" />
+        <entry key="..\:/Documents/AndroidStudioProjects/Simulator/app/src/main/res/layout/activity_main.xml" value="0.5" />
+        <entry key="..\:/Documents/AndroidStudioProjects/Simulator/app/src/main/res/layout/app_bar_main.xml" value="0.20052083333333334" />
+        <entry key="..\:/Documents/AndroidStudioProjects/Simulator/app/src/main/res/layout/content_main.xml" value="0.1661600810536981" />
+        <entry key="..\:/Documents/AndroidStudioProjects/Simulator/app/src/main/res/layout/drop_down_item_1.xml" value="0.38697916666666665" />
+        <entry key="..\:/Documents/AndroidStudioProjects/Simulator/app/src/main/res/layout/drop_down_item_2.xml" value="0.2708333333333333" />
+        <entry key="..\:/Documents/AndroidStudioProjects/Simulator/app/src/main/res/layout/fragment_automata.xml" value="0.23385416666666667" />
+        <entry key="..\:/Documents/AndroidStudioProjects/Simulator/app/src/main/res/layout/fragment_automata_definition.xml" value="0.25" />
+        <entry key="..\:/Documents/AndroidStudioProjects/Simulator/app/src/main/res/layout/fragment_automaton_examples.xml" value="0.2708333333333333" />
+        <entry key="..\:/Documents/AndroidStudioProjects/Simulator/app/src/main/res/layout/fragment_definition_fragment.xml" value="0.38697916666666665" />
+        <entry key="..\:/Documents/AndroidStudioProjects/Simulator/app/src/main/res/layout/fragment_gallery.xml" value="0.38697916666666665" />
+        <entry key="..\:/Documents/AndroidStudioProjects/Simulator/app/src/main/res/layout/fragment_home.xml" value="0.22" />
+        <entry key="..\:/Documents/AndroidStudioProjects/Simulator/app/src/main/res/layout/fragment_turing_machine.xml" value="0.25" />
+        <entry key="..\:/Documents/AndroidStudioProjects/Simulator/app/src/main/res/layout/fragment_turing_machine_definition.xml" value="0.25" />
+        <entry key="..\:/Documents/AndroidStudioProjects/Simulator/app/src/main/res/layout/fragment_turing_machine_examples.xml" value="0.25" />
+        <entry key="..\:/Documents/AndroidStudioProjects/Simulator/app/src/main/res/layout/input_string_layout.xml" value="0.38697916666666665" />
+        <entry key="..\:/Documents/AndroidStudioProjects/Simulator/app/src/main/res/layout/list_item_with_remove_button.xml" value="0.38697916666666665" />
+        <entry key="..\:/Documents/AndroidStudioProjects/Simulator/app/src/main/res/layout/machine_definition_fragment.xml" value="0.22" />
+        <entry key="..\:/Documents/AndroidStudioProjects/Simulator/app/src/main/res/layout/machine_definition_layout.xml" value="0.38697916666666665" />
+        <entry key="..\:/Documents/AndroidStudioProjects/Simulator/app/src/main/res/layout/nav_header_main.xml" value="0.21145833333333333" />
+        <entry key="..\:/Documents/AndroidStudioProjects/Simulator/app/src/main/res/layout/new_automaton_transition_expandable_item.xml" value="0.38697916666666665" />
+        <entry key="..\:/Documents/AndroidStudioProjects/Simulator/app/src/main/res/layout/new_transition_function_add_expandable_item.xml" value="0.38697916666666665" />
+        <entry key="..\:/Documents/AndroidStudioProjects/Simulator/app/src/main/res/layout/player_buttons_layout.xml" value="0.38697916666666665" />
+        <entry key="..\:/Documents/AndroidStudioProjects/Simulator/app/src/main/res/layout/set_definition_expandable_item.xml" value="0.38697916666666665" />
+        <entry key="..\:/Documents/AndroidStudioProjects/Simulator/app/src/main/res/layout/simple_expandable_item.xml" value="0.38697916666666665" />
+        <entry key="..\:/Documents/AndroidStudioProjects/Simulator/app/src/main/res/layout/swipeable_list_item.xml" value="0.33" />
+        <entry key="..\:/Documents/AndroidStudioProjects/Simulator/app/src/main/res/layout/tape_square_item.xml" value="0.23385416666666667" />
+        <entry key="..\:/Documents/AndroidStudioProjects/Simulator/app/src/main/res/layout/tape_square_read_rw_layout.xml" value="0.23385416666666667" />
+        <entry key="..\:/Documents/AndroidStudioProjects/Simulator/app/src/main/res/layout/test.xml" value="0.38697916666666665" />
+        <entry key="..\:/Documents/AndroidStudioProjects/Simulator/app/src/main/res/layout/transition_item.xml" value="0.38697916666666665" />
+        <entry key="..\:/Documents/AndroidStudioProjects/Simulator/app/src/main/res/layout/transition_list_item.xml" value="0.38697916666666665" />
+        <entry key="..\:/Documents/AndroidStudioProjects/Simulator/app/src/main/res/layout/transitions_expandable_item.xml" value="0.38697916666666665" />
+        <entry key="..\:/Documents/AndroidStudioProjects/Simulator/app/src/main/res/layout/turing_machine_definition_fragment.xml" value="0.25" />
+        <entry key="..\:/Documents/AndroidStudioProjects/Simulator/app/src/main/res/menu/activity_main_drawer.xml" value="0.38697916666666665" />
+        <entry key="..\:/Documents/AndroidStudioProjects/Simulator/app/src/main/res/menu/main.xml" value="0.38697916666666665" />
+        <entry key="..\:/Documents/AndroidStudioProjects/Simulator/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.2645" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_7" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

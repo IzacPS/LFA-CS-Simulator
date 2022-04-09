@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#00000000"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="22dp"
+        android:background="@color/black"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="4dp"/>
+
+    <View
+        android:id="@+id/tape_head_view"
+        android:layout_width="52dp"
+        android:layout_height="52dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/tape_square_head_rw"/>
+
+</LinearLayout>

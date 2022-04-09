@@ -1,0 +1,11 @@
+body {
+    background-color: white;
+}
+
+.div_center{
+    display : block;
+    margin-left : auto;
+    margin-right: auto;
+    padding-top : 20%;
+}
+
